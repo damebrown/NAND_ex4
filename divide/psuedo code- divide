@@ -1,0 +1,23 @@
+psuedo code- divide
+
+result = 0, left = 1
+divider_c = divider
+divided_c = divided
+if (divider > divided)
+	return 0
+if (divider == divided)
+	return 1	
+while (divider_c > 0) || (divided_c > divider_c)
+	for bit in divider
+		if (divider_c * 2 < divided_c)
+			left *= 2
+			divider_c *= 2
+		else if (divider_c == divider)
+			left = 1 
+		else if (divider_c < divided_c)
+			break
+	divided_c = divided - divider_c
+	divider_c = divider
+	result += left
+	left = 1
+return result

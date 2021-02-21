@@ -1,0 +1,17 @@
+michaelbere, daniel.brown1
+===============================================================================
+Michael Berelejis, ID 203527973, michael.berelejis@mail.huji.ac.il
+Daniel Brown, ID 311340723, daniel.brown1@mail.huji.ac.il
+===============================================================================
+
+                           Project 4 -  Machine Language
+                           -----------------------------
+  
+
+Submitted Files
+---------------
+README - description of the project
+sort/Sort.asm - sorts a list that starts in R14 in length R15 in a descending order
+mult/Mult.asm - multiplies R0 with R1 and stores the result in R2
+divide/Divide.asm - calculates R13/R14 and stores the answer at R15
+fill/Fill.asm - listens to the keyboard and blackens the screen when a key is pressed
